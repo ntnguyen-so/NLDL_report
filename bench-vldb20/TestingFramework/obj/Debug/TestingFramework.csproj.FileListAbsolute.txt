@@ -1,0 +1,7 @@
+/mnt/c/Arbeid/Github_Repo/bench-vldb20/TestingFramework/bin/Debug/TestingFramework.exe.config
+/mnt/c/Arbeid/Github_Repo/bench-vldb20/TestingFramework/bin/Debug/TestingFramework.exe
+/mnt/c/Arbeid/Github_Repo/bench-vldb20/TestingFramework/bin/Debug/TestingFramework.pdb
+/mnt/c/Arbeid/Github_Repo/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.csproj.AssemblyReference.cache
+/mnt/c/Arbeid/Github_Repo/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.csproj.CoreCompileInputs.cache
+/mnt/c/Arbeid/Github_Repo/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.exe
+/mnt/c/Arbeid/Github_Repo/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.pdb
