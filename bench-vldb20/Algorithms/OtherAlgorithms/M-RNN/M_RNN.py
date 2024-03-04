@@ -22,7 +22,7 @@ def M_RNN (trainZ, trainM, trainT, testZ, testM, testT):
     hidden_dim = 10
     
     learning_rate = 0.01
-    iterations = 50
+    iterations = 200
 
     #%% input place holders (Y: target, M: Mask)
     Y = tf.placeholder(tf.float32, [seq_length, None, 1])

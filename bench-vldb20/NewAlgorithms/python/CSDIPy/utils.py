@@ -117,7 +117,7 @@ def calc_quantile_CRPS_sum(target, forecast, eval_points, mean_scaler, scaler):
         CRPS += q_loss / denom
     return CRPS.item() / len(quantiles)
 
-def evaluate(model, test_loader, nsample=100, scaler=1, mean_scaler=0, foldername=""):
+def evaluate(model, test_loader, nsample=1, scaler=1, mean_scaler=0, foldername=""):
     permutations = list()
     with torch.no_grad():
         model.eval()
@@ -147,7 +147,7 @@ def evaluate(model, test_loader, nsample=100, scaler=1, mean_scaler=0, foldernam
                 # all_observed_time.append(observed_time)
                 # all_generated_samples.append(samples)
                 
-                permutations += samples_median.values.numpy().tolist()
+                permutations += samples_median.values.cpu().numpy().tolist()
 
                 # mse_current = (
                     # ((samples_median.values - c_target) * eval_points) ** 2
