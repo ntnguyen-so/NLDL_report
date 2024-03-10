@@ -88,7 +88,7 @@ ___
  | m-rnn    |             |           |
  | brits    |             |           |
  | csdipy   |             |           |
-* csdipy is the CSDI algorithm and added by the student who attended the NLDL'24 Winter School.
+* csdipy is the [CSDI](https://proceedings.neurips.cc/paper_files/paper/2021/file/cfe8504bda37b575c70ee1a8276f3486-Paper.pdf) algorithm and added by the student who attended the NLDL'24 Winter School.
 
 
 ### Results
