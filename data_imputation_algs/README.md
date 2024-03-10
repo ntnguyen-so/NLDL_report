@@ -20,6 +20,8 @@ PVLDB 2020 paper:  <a href = "http://www.vldb.org/pvldb/vol13/p768-khayati.pdf">
    - [SSA](https://dl.acm.org/doi/10.1145/3287319): Model Agnostic Time Series Analysis via Matrix Estimation, Meas. Anal. Comput. Syst'18
    - [MRNN](https://ieeexplore.ieee.org/document/8485748): Estimating Missing Data in Temporal Data Streams Using Multi-Directional Recurrent Neural Networks, Trans. On Bio Eng.'19 
    - [BRITS](http://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series): BRITS: Bidirectional Recurrent Imputation for Time Series, NeurIPS'18
+- The student who submitted the report for the NLDL'24 Winter School added the following algorithm:
+   - [CSDI](https://proceedings.neurips.cc/paper_files/paper/2021/file/cfe8504bda37b575c70ee1a8276f3486-Paper.pdf) CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation, NeurIPS'21
 - All the datasets used in this benchmark can be found [here](https://github.com/eXascaleInfolab/bench-vldb20/tree/master/Datasets).
 - The full list of recovery scenarios can be found [here](https://github.com/eXascaleInfolab/bench-vldb20/blob/master/TestingFramework/README.md).
 - **Remark**: Algorithms `tkcm`,  `spirit`, `ssa`, and `mr-nn`  cannot handle multiple incomplete time series. These algorithms will not produce results for the following scenarios: `miss_disj`, `miss_over`, `mcar` and `blackout`.
@@ -85,7 +87,8 @@ ___
  | ssa      |             |           |
  | m-rnn    |             |           |
  | brits    |             |           |
-
+ | csdipy   |             |           |
+* csdipy is the CSDI algorithm and added by the student who attended the NLDL'24 Winter School.
 
 
 ### Results
