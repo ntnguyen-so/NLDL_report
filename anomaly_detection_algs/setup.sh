@@ -34,7 +34,7 @@ Rscript -e 'install.packages("BBmisc")'
 
 # Define the list of subfolders to ignore
 ignored_folders=("01-data" "02-results" ".git" "0-base-images" "3-scripts")
-univariable_algs=("novelty_svr" "phasespace_svm" "ensemble_gi" "grammarviz3" "hotsax" "ts_bitmap" "norma" "sand" "series2graph" "stamp" "stomp" "valmod" "left_stampi" "ssa" "pst" "numenta_htm" "subsequence_lof" "subsequence_if" "dwt_mlead" "fft" "sr" "s_h_esd" "dspot" "arima" "median_method" "sarima" "triple_es" "pci" "generic_rf" "generic_xgb" "tarzan" "health_esn" "ocean_wnn" "bagel" "donut" "img_embedding_cae" "sr_cnn" "subsequence_fast_mcd")
+univariable_algs=("numenta_htm" "health_esn" "ocean_wnn" "bagel" "donut" "img_embedding_cae" "sr_cnn")
 
 # Get the list of sub-folders within the current folder, excluding the ones to ignore
 subfolders=$(find . -mindepth 1 -maxdepth 1 -type d)
