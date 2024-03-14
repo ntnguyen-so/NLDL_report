@@ -14,6 +14,8 @@ Some of the algorithm's source code is access restricted and we just provide the
 Each folder contains the implementation of an algorithm that will be build into a runnable Docker container using CI.
 The namespace prefix (repository) for the built Docker images is `registry.gitlab.hpi.de/akita/i/`.
 
+**To set up the environment to reproduce the results reported for NLDL'24 winter school, please see the very end of the README**
+
 ## Overview
 
 | Algorithm (folder) | Image | Language | Base image | Learning Type | Input Dimensionality |
@@ -214,3 +216,7 @@ Follow the below steps to test your algorithm using Docker (examples assume that
    ```
 
    Be warned that the result and model files will be written to the `2-results`-directory as the root-user if you do not pass the optional environment variables `LOCAL_UID` and `LOCAL_GID` to the container.
+
+## Reproducing results for NLDL'24 Winter School's report
+
+Execute the script `setup.sh` to set up the environment.
