@@ -1,5 +1,7 @@
 # Description
-This project contains the code used in the report of the NLDL'24 Winter School titled "Oceanographic Data Series Cleaning using Deep Learning"
+This project contains the code used in the report of the NLDL'24 Winter School titled "Oceanographic Data Series Cleaning using Deep Learning".
+
+The results were produced on a laptop with the CPU of Intel Core i7-1165G7 processor (8 CPU cores @ 2.80GHz) and 32GB of RAM, and operating on Ubuntu 20.04 LTS.
 
 # Structure
 The project is structured as follow:
