@@ -220,3 +220,8 @@ Follow the below steps to test your algorithm using Docker (examples assume that
 ## Reproducing results for NLDL'24 Winter School's report
 
 Execute the script `setup.sh` to set up the environment.
+
+To execute all experiments, use the following command
+```
+python3 run_test_param.py
+```
