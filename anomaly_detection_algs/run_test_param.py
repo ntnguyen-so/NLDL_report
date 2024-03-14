@@ -62,17 +62,15 @@ def execute(command):
 if __name__ == '__main__':
     num_cores = 32# multiprocessing.cpu_count()  # Specify the number of cores you have
     timeout =7200*2  # Set the timeout duration (in seconds)
-    learning_method = "4-param_optimization/unsupervised_commands.txt"
+    learning_method = "4-param_optimization/experiments.txt"
     
     with open(learning_method, "r") as f:
         commands = f.readlines()
     
-    data_name = "Tide_pressure_missing_imputed"
+    data_name = "Tide_pressure"
     logfile = data_name + ".log"
     
     commands=update_data(commands, data_name)
-    if "/supervised_" not in learning_method:
-        random.shuffle(commands)
 
     # Start the programs in parallel using a process pool
     with multiprocessing.Pool(processes=num_cores) as pool:
