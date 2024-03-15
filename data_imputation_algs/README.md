@@ -78,8 +78,8 @@ ___
  | stmvl    | temp        | *all*     |
  | spirit   | bafu_red    |           |
  | tenmf    | drift10_red |           |
- | tkcm     | *all*       |           |
- | trmf     |             |           |
+ | tkcm     | oceantidepressure       |           |
+ | trmf     | *all*       |           |
  | *all*    |             |           |
  | -------- | -------- | -------- |
  | New algs |             |           |
@@ -89,6 +89,7 @@ ___
  | brits    |             |           |
  | csdipy   |             |           |
 * csdipy is the [CSDI](https://proceedings.neurips.cc/paper_files/paper/2021/file/cfe8504bda37b575c70ee1a8276f3486-Paper.pdf) algorithm and added by the student who attended the NLDL'24 Winter School.
+* oceantidepressure is the dataset added by the winter school participant. It is taken from the anomalay detection result generated from OceanWNN.
 
 
 ### Results
